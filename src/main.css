@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+
+.item-white{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255,255,255,.80);
+    /*border: 3px solid blue;*/
+    border-radius: 200px;
+}
+.item-white:hover{
+    background-color: rgba(255,255,255);
+}
+
+.item-yellow{
+    width: 70px;
+    height: 70px;
+    background-color: #ffb000;
+    /*border: 3px solid blue;*/
+    border-radius: 200px;
+
+}
+
+.item-red{
+    background-color: #ff0000;
+    /*border: 3px solid blue;*/
+    border-radius: 200px;
+
+}
+
+#container{
+    background-color: #0025e1;
+    display: grid;
+    grid-template-columns: repeat(7, 4.5rem);
+    grid-template-rows: repeat(6, 4.5rem);
+    justify-content: center;
+    width: max-content;
+    margin-top:5px;
+    cursor: pointer;
+    padding: 9px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #DEBB7A;
+    font-family: 'Alkatra', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: rgba(0,0,0,.95);
+}
+#winner-red{
+    color: #FF0000FF;
+    background-color: aliceblue;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+#winner-yellow{
+    color: #ffb000;
+    background-color: aliceblue;
+    margin: 2px;
+}

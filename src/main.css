@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     background: linear-gradient(to right, #8BC6EC, #9599E2);
-    font-family: 'Alkatra', cursive;
+    font-family: cursive;
     font-size: 45px;
     text-align: center;
     color: rgba(0,0,0,.95);
@@ -122,47 +122,69 @@ body{
     color: rgba(0,0,0,.70);
 }
 
-/* Adjusting to mobile */
-@media only screen and (max-width: 600px) {
-    #container {
-        grid-template-columns: repeat(7, 3rem);
-        grid-template-rows: repeat(6, 3rem);
+
+
+
+/* Adjusting to screen size*/
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 30px;
     }
 
-    .item{
-        border-radius: 200px;
+    #container {
+        grid-template-columns: repeat(7, 4rem);
+        grid-template-rows: repeat(6, 4rem);
+    }
+
+    .item {
         margin: 2px;
     }
 
-    body{
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        background: linear-gradient(to right, #8BC6EC, #9599E2);
-        font-family: 'Alkatra', cursive;
-        font-size: 30px;
-        text-align: center;
-        color: rgba(0,0,0,.95);
+    .player-circle {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        font-size: 35px;
+    }
+
+    #container {
+        grid-template-columns: repeat(7, 5rem);
+        grid-template-rows: repeat(6, 5rem);
+    }
+
+    .item {
+        margin: 3px;
     }
 
     .player-circle {
-        width:3rem;
-        height: 3rem;
-        border-radius: 50%;
-        margin: 0 20px;
-    }
-
-    .arrow{
-        border-top: 15px solid transparent;
-        border-bottom: 10px solid transparent;
-    }
-    .arrow-yellow{
-        border-right: 30px solid rgba(0,0,0,.95);
-        transform: rotate(180deg);
-    }
-    .arrow-red {
-        border-left: 30px solid rgba(0,0,0,.95);
-        transform: rotate(180deg);
+        width: 4rem;
+        height: 4rem;
     }
 }
+
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 45px;
+    }
+
+    #container {
+        grid-template-columns: repeat(7, 6rem);
+        grid-template-rows: repeat(6, 6rem);
+    }
+
+    .item {
+        margin: 4px;
+    }
+
+    .player-circle {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
 

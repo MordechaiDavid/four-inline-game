@@ -1,6 +1,7 @@
+
 function HeaderComponent() {
     return(
-        <div>
+        <div id={"header"}>
             Four in a Line
         </div>
     )

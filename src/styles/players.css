@@ -1,0 +1,19 @@
+
+
+
+
+#yellow-player{
+    background-color: #ffb000;
+    align-items: flex-end;
+    width: 150px;
+    height: 100px;
+    transform: translateX(-7%);
+}
+
+#red-player{
+    background-color: #ff0000;
+    align-items: flex-start;
+    width: 60px;
+    height: 60px;
+    transform: translateX(900%);
+}

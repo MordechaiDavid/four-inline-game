@@ -125,7 +125,7 @@ body{
 
 
 
-/* Adjusting to mobile */
+/* Adjusting to screens sizes */
 
 @media only screen and (max-width: 600px) {
     body {
@@ -166,6 +166,8 @@ body{
         height: 4rem;
     }
 }
+
+
 
 
 

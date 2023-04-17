@@ -149,6 +149,11 @@ class App extends React.Component{
   render(){
       return(
           <div>
+              <div id="player-turn">
+                  <div className="player-circle player-red"></div>
+                  <div className={"arrow arrow-"+(this.state.isRed? "red": "yellow")}></div>
+                  <div className="player-circle player-yellow"></div>
+              </div>
               {this.winnerRendering()}
               {this.tableRendering()}
           </div>

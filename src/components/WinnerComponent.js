@@ -1,5 +1,6 @@
 import React from "react";
 import "../main.css"
+import {Link} from "react-router-dom";
 
 function WinnerComponent(props) {
     const checkWinner = ()=>{
@@ -70,7 +71,10 @@ function WinnerComponent(props) {
             <div className={"winner winner-"+winner}>
                 <div>{winner} is the winner!</div>
                 <div>
-                    <a href="https://four-inline-game.netlify.app/" id="play-again-button">Play Again</a>
+                    <Link onClick={() => window.location.reload()}
+                          id={"default-button"} to="/table">Play Again</Link>
+                    <br/>
+                    <Link id={"default-button"} to={"/"} >Go To Home Page</Link>
                 </div>
             </div>
         )

@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
+
 import "../main.css"
 
 
 function HeaderComponent(props){
+
+
     return(
         <div id="player-turn">
             <div className="player-circle player-red"></div>

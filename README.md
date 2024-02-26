@@ -12,7 +12,6 @@ This React application implements the classic game of Four in a Line. The game a
   - [HomeComponent](#homecomponent)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## Description
 

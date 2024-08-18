@@ -1,12 +1,16 @@
 # Four in a Line Game
 
-<p align="center">
-  <img src="public/screenshoot.png" alt="Game Screenshot" width="600"/>
-</p>
 
 ## About the Game
 
 This React application implements the classic game of Four in a Line. The game allows two players to take turns placing colored discs on a grid in an attempt to form a line of four discs of their color horizontally, vertically, or diagonally.
+
+
+<p align="center">
+  <img src="public/screenshoot.png" alt="Game Screenshot" width="600"/>
+</p>
+
+
 
 ## Live Demo
 

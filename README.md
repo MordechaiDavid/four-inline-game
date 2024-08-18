@@ -6,6 +6,10 @@ This React application implements the classic game of Four in a Line. The game a
 
 You can see the game running online at [https://four-inline-game.netlify.app/](https://four-inline-game.netlify.app/)
 
+## Screenshot
+
+![Game Screenshot](public/game-screenshot.png)
+
 ## Table of Contents
 - [Description](#description)
 - [Components](#components)

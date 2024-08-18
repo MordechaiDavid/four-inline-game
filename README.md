@@ -2,14 +2,13 @@
 
 This React application implements the classic game of Four in a Line. The game allows two players to take turns placing colored discs on a grid in an attempt to form a line of four discs of their color horizontally, vertically, or diagonally.
 
-
-![Game Screenshot](public/screenshoot.png)
-
+<p align="center">
+  <img src="public/screenshoot.png" alt="Game Screenshot" width="600"/>
+</p>
 
 ## Live Demo
 
 You can see the game running online at [https://four-inline-game.netlify.app/](https://four-inline-game.netlify.app/)
-
 
 ## Table of Contents
 - [Description](#description)

@@ -7,10 +7,10 @@ function HomeComponent () {
             <h1>Four in a Line Game</h1>
             <p>Please choose an option:</p>
             <p>
-                <Link id={"default-button"} to="/table">Play Locally</Link>
+                <Link id={"default-button"} to="/game-locally">Play Locally</Link>
             </p>
             <p>
-                <Link id={"default-button"} to="#">Play Against Computer</Link>
+                <Link id={"default-button"} to="game-ai">Play Against Computer</Link>
             </p>
         </div>
     );

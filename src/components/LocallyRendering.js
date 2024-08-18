@@ -1,6 +1,6 @@
 import React from "react";
 
-function TableComponent(props){
+function LocallyRendering(props){
 
     const tableRendering = ()=> {
         return(
@@ -10,7 +10,7 @@ function TableComponent(props){
                         return(
                             row.map((column, columnIndex)=>{
                                 return(
-                                    <div onClick={()=> props.cellClicked(rowIndex, columnIndex)}
+                                    <div onClick={()=> props.cellChanged(true, rowIndex, columnIndex)}
                                          className={"item item-" + column}></div>
                                 )
                             })
@@ -30,4 +30,4 @@ function TableComponent(props){
     )
 }
 
-export default TableComponent;
+export default LocallyRendering;

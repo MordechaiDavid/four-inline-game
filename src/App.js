@@ -11,7 +11,9 @@ function App(){
             <div>
                 <Routes>
                     <Route path="/" element={<HomeComponent />} />
-                    <Route path="/table" element={<GameComponent/>} />
+                    <Route path="/game-locally" element={<GameComponent gameType={"locally"}/>} />
+                    <Route path="/game-ai" element={<GameComponent gameType={"ai"}/>} />
+
                 </Routes>
             </div>
         );
